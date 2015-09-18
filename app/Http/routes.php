@@ -19,4 +19,11 @@ Route::get('contact', function () {
     return view('pages.contact');
 });
 
+Route::post('push_register/{token}', 'PagesController@register');
+
+/*
 Route::get('about', 'PagesController@about');
+
+Route::get('task', 'TaskController@index');
+Route::get('task/{id}', 'TaskController@show');
+*/
