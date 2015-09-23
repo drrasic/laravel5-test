@@ -16,21 +16,6 @@
                 font-weight: 100;
                 font-family: Halvetica;
             }
-
-            .container {
-                text-align: center;
-                display: table-cell;
-                vertical-align: middle;
-            }
-
-            .content {
-                text-align: center;
-                display: inline-block;
-            }
-
-            .title {
-                font-size: 96px;
-            }
         </style>
     </head>
     <body>

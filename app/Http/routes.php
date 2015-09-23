@@ -14,12 +14,16 @@
 Route::get('/', function () {
     return view('welcome');
 });
+//
+//Route::get('contact', function () {
+//    return view('pages.contact');
+//});
 
-Route::get('contact', function () {
-    return view('pages.contact');
-});
+Route::post('push_register', 'PushController@register');
 
-Route::post('push_register/{token}', 'PagesController@register');
+Route::get('push_notifications', 'PushController@index');
+
+Route::post('send_push', 'PushController@sendPush');
 
 /*
 Route::get('about', 'PagesController@about');
