@@ -4,8 +4,7 @@ return array(
 
     'tjMirageIOS'     => array(
         'environment' =>'development',
-        'certificate' =>'/path/to/certificate.pem',
-        'passPhrase'  =>'password',
+        'certificate' => app_path().'/apns-development-43bb8b46cd.pem',
         'service'     =>'apns'
     ),
     'tjMirageAndroid' => array(
